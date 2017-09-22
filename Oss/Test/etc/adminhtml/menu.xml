@@ -1,0 +1,6 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Oss_Test::data" title="News" module="Oss_Test" sortOrder="75" resource="Oss_Test::data"
+             action="sample/data/index" parent="Magento_Customer::customer"/>
+    </menu>
+</config>
