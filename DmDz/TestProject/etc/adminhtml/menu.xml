@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="DmDz_TestProject::question_content" title="Questions" module="DmDz_TestProject" sortOrder="50" parent="Magento_Backend::content" resource="DmDz_TestProject::question_content" />
+        <add id="DmDz_TestProject::post" title="View questions" module="DmDz_TestProject" sortOrder="0" parent="DmDz_TestProject::question_content" action="contactform/question" resource="DmDz_TestProject::questions"/>
+    </menu>
+</config>
